@@ -1,0 +1,42 @@
+{
+    "name": "students",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Index.js",
+    "scripts": {
+        "dev": "nodemon Index.js",
+        "start": "node Index.js -p $PORT",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sirpasha/students-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sirpasha/students-backend/issues"
+    },
+    "homepage": "https://github.com/sirpasha/students-backend#readme",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "fs": "^0.0.1-security",
+        "jalali-moment": "^3.3.11",
+        "jsonwebtoken": "^9.0.1",
+        "mocha": "^10.2.0",
+        "mongoose": "^7.3.4",
+        "mongoose-unix-timestamp": "^1.0.6",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "nodemon": "^3.0.1",
+        "shamsi-date-converter": "^1.0.5",
+        "telegraf": "^4.12.2"
+    }
+}
